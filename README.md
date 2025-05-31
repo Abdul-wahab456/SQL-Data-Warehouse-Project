@@ -84,28 +84,41 @@ Use SQL to generate insights related to:
 
 ## 📂 Repository Structure
 data-warehouse-project/
-│
-├── datasets/ # Raw datasets (ERP and CRM)
-│
-├── docs/ # Documentation and architecture files
-│ ├── etl.drawio # ETL process diagram
-│ ├── data_architecture.drawio # Overall architecture diagram
-│ ├── data_catalog.md # Dataset descriptions and metadata
-│ ├── data_flow.drawio # Data flow diagram
-│ ├── data_models.drawio # Star schema data models
-│ ├── naming-conventions.md # Naming standards
-│
-├── scripts/ # SQL scripts
-│ ├── bronze/ # Ingest raw data
-│ ├── silver/ # Data cleaning & transformation
-│ ├── gold/ # Analytical modeling
-│
-├── tests/ # Data quality and testing scripts
-│
-├── README.md # Project overview and instructions
-├── LICENSE # License information
-├── .gitignore # Git ignore file
-└── requirements.txt # Project dependencies
+## 📂 Repository Structure
+
+- `data-warehouse-project/`
+  - `datasets/`  
+    Raw datasets used for the project (ERP and CRM data)
+
+  - `docs/`  
+    Project documentation and architecture diagrams  
+    - `etl.drawio` – ETL pipeline diagram  
+    - `data_architecture.drawio` – Overall data architecture  
+    - `data_catalog.md` – Dataset catalog and metadata  
+    - `data_flow.drawio` – Data flow diagram  
+    - `data_models.drawio` – Star schema data model  
+    - `naming-conventions.md` – Naming guidelines for tables, columns, and files  
+
+  - `scripts/`  
+    SQL scripts for ETL and data transformations  
+    - `bronze/` – Scripts for raw data ingestion  
+    - `silver/` – Scripts for data cleansing and transformation  
+    - `gold/` – Scripts for analytical model creation  
+
+  - `tests/`  
+    Data quality and validation scripts  
+
+  - `README.md`  
+    Main project overview and instructions  
+
+  - `LICENSE`  
+    License information  
+
+  - `.gitignore`  
+    Git ignored files and folders  
+
+  - `requirements.txt`  
+    List of tools and dependencies
 
 ## 📄 License
 
